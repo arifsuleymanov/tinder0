@@ -52,7 +52,7 @@
         <version>3.0.3</version>
         <configuration>
           <processTypes>
-            <web>java $JAVA_OPTS -cp target/classes:target/dependency/* tinder</web>
+            <web>java $JAVA_OPTS -cp target/classes:target/deps/* tinder</web>
           </processTypes>
           <appName>abb-tech-tinder-app</appName>
         </configuration>
