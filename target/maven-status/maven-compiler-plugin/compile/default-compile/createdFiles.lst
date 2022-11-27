@@ -12,7 +12,9 @@ service\RegisterService.class
 database\DBOperation.class
 service\LoginService.class
 servlet\TemplateEngine$1.class
+servlet\CssServlet.class
 dao\DAO.class
+servlet\BootStrapServlet.class
 servlet\TemplateEngine.class
 servlet\RegistrationServlet.class
 entity\Message.class

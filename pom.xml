@@ -24,7 +24,7 @@
           <processTypes>
             <web>java $JAVA_OPTS -cp target/classes:target/dependency/* TinderApp</web>
           </processTypes>
-          <appName>app-tech-tinder-app</appName>
+          <appName>abb-tech-tinder-app</appName>
         </configuration>
 
       </plugin>
