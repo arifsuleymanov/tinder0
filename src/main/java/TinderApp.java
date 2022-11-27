@@ -49,6 +49,8 @@ public class TinderApp {
         handler.addFilter(SessionFilter.class, "/messages/{id}", EnumSet.of(DispatcherType.REQUEST));
         handler.addFilter(SessionFilter.class, "/users", EnumSet.of(DispatcherType.REQUEST));
         handler.addFilter(MessageFilter.class, "/messages/{id}", EnumSet.of(DispatcherType.REQUEST));
+        handler.addServlet(BootStrapServlet.class, "/static/css/bootstrap.min.css");
+        handler.addServlet(CssServlet.class, "/static/css/style.css");
 //      ==============================================================================================================
         server.setHandler(handler);
         server.start();
