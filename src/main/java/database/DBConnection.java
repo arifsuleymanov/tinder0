@@ -27,6 +27,6 @@ public class DBConnection {
 
     @SneakyThrows
     public static Connection getFromURL(String jdbc_url) {
-        return DriverManager.getConnection(jdbc_url);
+        return DriverManager.getConnection(jdbc_url, HerokuEnv.jdbc_username(), HerokuEnv.jdbc_password());
     }
 }
